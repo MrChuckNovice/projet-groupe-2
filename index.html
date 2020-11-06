@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,29 +13,31 @@
   </head>
 
   <body>
-    <form action="index.php" method="post">
+    <!-- on lui donne acces a la page php-->
+    <form action="access_prive.php" method="post">
       <div class="form-signin">
         <div class="text-center mb-4">
            <img class="mb-4" src="assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
            <h1 class="h3 mb-3 font-weight-normal">Distrib Choc</h1>
         </div>
       
-
+    <!-- access Email address-->
         <div class="form-label-group">
            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
            <label for="inputEmail" placeholder="Email address"></label>
         </div>
-
+    <!-- access Password-->
   <div class="form-label-group">
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
     <label for="inputPassword" placeholder="password"></label>
   </div>
-
+     <!-- case se souvenir de moi-->
   <div class="checkbox mb-3">
     <label>
       <input type="checkbox" value="remember-me"> Remember me
     </label>
   </div>
+
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </div>
     </form>
